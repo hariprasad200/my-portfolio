@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirigireddy Hari Prasad Reddy | Portfolio</title>
+    <meta name="description" content="Portfolio of Sirigireddy Hari Prasad Reddy, a B.Tech CSE student focused on data-driven solutions.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Hari<span class="highlight">.Data</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-toggle" aria-label="Toggle Navigation">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-padding">
+            <div class="hero-content fade-in-up">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Sirigireddy Hari Prasad Reddy</h1>
+                <h2 class="title type-wrap"><span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p class="hero-intro">Passionate about building scalable solutions, analyzing complex datasets, and mastering data structures & algorithms using modern technologies.</p>
+                
+                <div class="hero-actions">
+                    <a href="hariprasad-cv.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-pill">View Resume <i class="ph ph-arrow-right"></i></a>
+                    <a href="hariprasad-cv.pdf" download="hariprasad-cv.pdf" class="btn btn-outline btn-pill">Download CV <i class="ph ph-download-simple"></i></a>
+                </div>
+                
+                <div class="hero-socials fade-in-up delay-1">
+                    <a href="https://linkedin.com/in/hari-prasad-reddy-sirigireddy/" aria-label="LinkedIn Profile" target="_blank">
+                        <i class="ph-fill ph-linkedin-logo"></i>
+                    </a>
+                    <a href="https://github.com/hariprasad200" aria-label="GitHub Profile" target="_blank">
+                        <i class="ph-fill ph-github-logo"></i>
+                    </a>
+                    <a href="mailto:sirigireddyhariprasadreddy045@gmail.com" aria-label="Email Me">
+                        <i class="ph-fill ph-envelope-simple"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-graphic fade-in-up delay-2">
+                <div class="profile-circle glass-panel profile-gradient">
+                    <img src="profile.jpg" alt="Hari Prasad Profile" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding hidden">
+            <div class="section-header text-center">
+                <h2 class="section-title">About Me</h2>
+                <div class="center-underline border-gradient"></div>
+            </div>
+            
+            <div class="about-content">
+                <p class="about-para text-center p-lg">
+                    Hi, I’m <strong>Sirigireddy Hari Prasad Reddy</strong>, a B.Tech Computer Science and Engineering student at Lovely Professional University. I focus on building data-driven solutions using Python, working with tools like NumPy, Pandas, and SQL to analyze data and extract meaningful insights. I develop practical projects that demonstrate structured problem-solving and efficient coding.
+                </p>
+                
+                <!-- Education Timeline -->
+                <div class="education-card glass-panel mt-3">
+                    <div class="edu-header">
+                        <i class="ph ph-graduation-cap icon-lg"></i>
+                        <h3>Education</h3>
+                    </div>
+                    
+                    <div class="edu-timeline">
+                        <div class="edu-item">
+                            <div class="edu-dot"></div>
+                            <h4>B.Tech – Computer Science and Engineering</h4>
+                            <p class="edu-school">Lovely Professional University, Phagwara, Punjab</p>
+                            <p class="edu-score highlight-text">CGPA: 6.79 (Since Aug '23)</p>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-dot"></div>
+                            <h4>Intermediate</h4>
+                            <p class="edu-school">Sri Chaitanya RB-3, Gannavaram, Vijayawada</p>
+                            <p class="edu-score highlight-text">Percentage: 93.4% (Aug '21 - Mar '23)</p>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-dot"></div>
+                            <h4>Matriculation</h4>
+                            <p class="edu-school">Adithya High School, Proddatur, Kadapa District</p>
+                            <p class="edu-score highlight-text">Percentage: 93.6% (Jun '19 - Mar '21)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding hidden">
+            <div class="section-header text-center">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="center-underline border-gradient"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-card glass-panel">
+                    <div class="card-head">
+                        <i class="ph ph-code" style="color: #3b82f6;"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="icon-grid">
+                        <div class="icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C logo" style="--icon-color: #044f88;"><span>C</span></div>
+                        <div class="icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++ logo" style="--icon-color: #00599c;"><span>C++</span></div>
+                        <div class="icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python logo" style="--icon-color: #3776ab;"><span>Python</span></div>
+                        <div class="icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java logo" style="--icon-color: #f89820;"><span>Java</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-database" style="--icon-color: #f97316;"></i><span>SQL</span></div>
+                    </div>
+                </div>
+                
+                <!-- Data Libraries -->
+                <div class="skill-card glass-panel">
+                    <div class="card-head">
+                        <i class="ph ph-globe" style="color: #3b82f6;"></i>
+                        <h3>Data Libraries</h3>
+                    </div>
+                    <div class="icon-grid">
+                        <div class="icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas logo" style="--icon-color: #150458;"><span>Pandas</span></div>
+                        <div class="icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="NumPy logo" style="--icon-color: #013243;"><span>NumPy</span></div>
+                        <div class="icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib logo" style="--icon-color: #11557c;"><span>Matplotlib</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-chart-line-up" style="--icon-color: #3776ab;"></i><span>Seaborn</span></div>
+                    </div>
+                </div>
+                
+                <!-- Data Tools -->
+                <div class="skill-card glass-panel">
+                    <div class="card-head">
+                        <i class="ph ph-wrench" style="color: #3b82f6;"></i>
+                        <h3>Data Tools</h3>
+                    </div>
+                    <div class="icon-grid">
+                        <div class="icon-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL logo" style="--icon-color: #4479A1;"><span>MySQL</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-chart-pie-slice" style="--icon-color: #f2c811;"></i><span>Power BI</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-table" style="--icon-color: #217346;"></i><span>Excel</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-github-logo" style="--icon-color: #ffffff;"></i><span>GitHub</span></div>
+                    </div>
+                </div>
+                
+                <!-- CS Fundamentals -->
+                <div class="skill-card glass-panel" style="grid-column: 1 / -1; margin-top: 1rem;">
+                    <div class="card-head">
+                        <i class="ph ph-book-open" style="color: #3b82f6;"></i>
+                        <h3>CS Fundamentals</h3>
+                    </div>
+                    <div class="icon-grid horizontal-grid">
+                        <div class="icon-item"><i class="ph-fill ph-database" style="--icon-color: #3b82f6;"></i><span>DBMS</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-tree-structure" style="--icon-color: #fbbf24;"></i><span>OOPs</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-desktop" style="--icon-color: #10b981;"></i><span>OS</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-git-branch" style="--icon-color: #ef4444;"></i><span>DSA</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-share-network" style="--icon-color: #8b5cf6;"></i><span>CN</span></div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-card glass-panel" style="grid-column: 1 / -1;">
+                    <div class="card-head">
+                        <i class="ph ph-users" style="color: #3b82f6;"></i>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="icon-grid horizontal-grid">
+                        <div class="icon-item"><i class="ph-fill ph-users-three" style="--icon-color: #0ea5e9;"></i><span>Team Player</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-arrows-clockwise" style="--icon-color: #14b8a6;"></i><span>Adaptability</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-star" style="--icon-color: #f59e0b;"></i><span>Leadership</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-clock" style="--icon-color: #6366f1;"></i><span>Time Mgmt</span></div>
+                        <div class="icon-item"><i class="ph-fill ph-lightbulb" style="--icon-color: #eab308;"></i><span>Creativity</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding hidden">
+            <div class="section-header text-center">
+                <h2 class="section-title">Projects</h2>
+                <div class="center-underline border-gradient"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card glass-panel">
+                    <div class="project-content">
+                        <h3 class="project-title">Library Management System</h3>
+                        <p class="project-desc">Designed and developed a menu-driven library system with persistent file storage. Implemented modules for book management, applied OOP for modular structure, and enhanced reliability through error handling.</p>
+                        <div class="project-tech">
+                            <span>C++</span>
+                            <span>File Handling</span>
+                            <span>OOP</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card glass-panel">
+                    <div class="project-content">
+                        <h3 class="project-title">Distribution Sales Analysis</h3>
+                        <p class="project-desc">Conducted comprehensive EDA. Performed data cleaning, outlier treatment, correlation analysis, and customer segmentation to identify purchasing behavior patterns driving demographic trends.</p>
+                        <div class="project-tech">
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card glass-panel">
+                    <div class="project-content">
+                        <h3 class="project-title">HR Attrition Analysis Dashboard</h3>
+                        <p class="project-desc">Analyzed HR dataset containing 1,470 records. Performed data cleaning, designed an interactive dashboard in Excel to visualize department-wise attrition, and focused on objectives like attrition reduction and satisfaction.</p>
+                        <div class="project-tech">
+                            <span>Microsoft Excel</span>
+                            <span>Data Cleaning</span>
+                            <span>Dashboarding</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Certifications & Training -->
+        <section id="certifications" class="skills section-padding hidden">
+            <div class="section-header text-center">
+                <h2 class="section-title">Certifications & Training</h2>
+                <div class="center-underline border-gradient"></div>
+            </div>
+
+            <div class="mb-4 text-center" style="margin-bottom: 3rem;">
+                <h3 style="font-size: 2rem; color: var(--text-primary);"><i class="ph-fill ph-certificate" style="color: var(--accent-secondary); margin-right: 0.8rem;"></i>Certifications</h3>
+            </div>
+            
+            <div class="cert-grid">
+                <!-- DSA -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon"><i class="ph-fill ph-cubes"></i></div>
+                        <div class="cert-info">
+                            <h4>Data Structures and Algorithms</h4>
+                            <p>Neo Colab</p>
+                        </div>
+                    </div>
+                    <div class="cert-actions">
+                        <a href="dsa-neocolab.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert btn-outline"><i class="ph-fill ph-eye"></i> View</a>
+                        <a href="dsa-neocolab.pdf" download="dsa-neocolab.pdf" class="btn-cert btn-primary"><i class="ph-fill ph-download-simple"></i> Download</a>
+                    </div>
+                </div>
+
+                <!-- C++ -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon"><i class="ph-fill ph-code"></i></div>
+                        <div class="cert-info">
+                            <h4>C++ Programming</h4>
+                            <p>Neo Colab</p>
+                        </div>
+                    </div>
+                    <div class="cert-actions">
+                        <a href="cpp-neocolab.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert btn-outline"><i class="ph-fill ph-eye"></i> View</a>
+                        <a href="cpp-neocolab.pdf" download="cpp-neocolab.pdf" class="btn-cert btn-primary"><i class="ph-fill ph-download-simple"></i> Download</a>
+                    </div>
+                </div>
+
+                <!-- Java -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon"><i class="ph-fill ph-coffee"></i></div>
+                        <div class="cert-info">
+                            <h4>Java Programming</h4>
+                            <p>Neo Colab</p>
+                        </div>
+                    </div>
+                    <div class="cert-actions">
+                        <a href="java-neo-colab.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert btn-outline"><i class="ph-fill ph-eye"></i> View</a>
+                        <a href="java-neo-colab.pdf" download="java-neo-colab.pdf" class="btn-cert btn-primary"><i class="ph-fill ph-download-simple"></i> Download</a>
+                    </div>
+                </div>
+
+                <!-- Prompt Engineering -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon"><i class="ph-fill ph-robot"></i></div>
+                        <div class="cert-info">
+                            <h4>Prompt Engineering: ChatGPT, Generative AI & LLM</h4>
+                            <p>Infosys Springboard</p>
+                        </div>
+                    </div>
+                    <div class="cert-actions">
+                        <a href="prompt-engineering.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert btn-outline"><i class="ph-fill ph-eye"></i> View</a>
+                        <a href="prompt-engineering.pdf" download="prompt-engineering.pdf" class="btn-cert btn-primary"><i class="ph-fill ph-download-simple"></i> Download</a>
+                    </div>
+                </div>
+
+                <!-- Computer Communications -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon"><i class="ph-fill ph-network"></i></div>
+                        <div class="cert-info">
+                            <h4>Computer Communications</h4>
+                            <p>Coursera</p>
+                        </div>
+                    </div>
+                    <div class="cert-actions">
+                        <a href="computer-communication.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert btn-outline"><i class="ph-fill ph-eye"></i> View</a>
+                        <a href="computer-communication.pdf" download="computer-communication.pdf" class="btn-cert btn-primary"><i class="ph-fill ph-download-simple"></i> Download</a>
+                    </div>
+                </div>
+
+                <!-- TCP/IP -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <div class="cert-icon"><i class="ph-fill ph-hard-drives"></i></div>
+                        <div class="cert-info">
+                            <h4>TCP/IP Advanced Topics</h4>
+                            <p>Coursera</p>
+                        </div>
+                    </div>
+                    <div class="cert-actions">
+                        <a href="tcp-ip.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert btn-outline"><i class="ph-fill ph-eye"></i> View</a>
+                        <a href="tcp-ip.pdf" download="tcp-ip.pdf" class="btn-cert btn-primary"><i class="ph-fill ph-download-simple"></i> Download</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-4 text-center" style="margin-bottom: 3rem; margin-top: 4rem;">
+                <h3 style="font-size: 2rem; color: var(--text-primary);"><i class="ph-fill ph-laptop" style="color: var(--accent-secondary); margin-right: 0.8rem;"></i>Training & Extracurriculars</h3>
+            </div>
+            
+            <div class="cert-grid">
+                <!-- Training -->
+                <div class="cert-card" style="justify-content: flex-start;">
+                    <div class="cert-header" style="margin-bottom: 1rem;">
+                        <div class="cert-icon"><i class="ph-fill ph-code"></i></div>
+                        <div class="cert-info">
+                            <h4>Summer Training – C++ Programming</h4>
+                            <p>LPU Skill Development</p>
+                        </div>
+                    </div>
+                    <div style="flex-grow: 1; margin-bottom: 1.5rem;">
+                        <p style="font-size:0.9rem; color:var(--text-secondary); line-height: 1.6;">Developed strong foundation in C++ syntax, covered OOP principles including classes/inheritance/file handling, and applied STL for structured problem-solving.</p>
+                    </div>
+                    <div class="cert-actions">
+                        <a href="cpp-training.pdf" target="_blank" rel="noopener noreferrer" class="btn-cert btn-outline"><i class="ph-fill ph-eye"></i> View</a>
+                        <a href="cpp-training.pdf" download="cpp-training.pdf" class="btn-cert btn-primary"><i class="ph-fill ph-download-simple"></i> Download</a>
+                    </div>
+                </div>
+
+                <!-- Hackathon -->
+                <div class="cert-card" style="justify-content: flex-start;">
+                    <div class="cert-header" style="margin-bottom: 1rem;">
+                        <div class="cert-icon"><i class="ph-fill ph-terminal-window"></i></div>
+                        <div class="cert-info">
+                            <h4>Hackathon: Code Off Duty</h4>
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+                    <div style="flex-grow: 1; margin-bottom: 1.5rem;">
+                        <p style="font-size:0.9rem; color:var(--text-secondary); line-height: 1.6;">Participated in a 24-hour web development hackathon focused on building responsive and functional web solutions.</p>
+                    </div>
+                    <div style="margin-top: auto;"></div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding hidden">
+            <div class="section-header text-center">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="center-underline border-gradient"></div>
+            </div>
+            
+            <div class="contact-content glass-panel" style="padding: 3rem; max-width: 900px; margin: 0 auto; border-radius: 16px;">
+                <div class="contact-grid">
+                    <!-- Phone -->
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ph-fill ph-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+918309562641" class="contact-value">+91 83095 62641</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Email -->
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ph-fill ph-envelope-simple"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:sirigireddyhariprasadreddy045@gmail.com" class="contact-value">sirigireddyhariprasadreddy045@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <!-- LinkedIn -->
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ph-fill ph-linkedin-logo"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">LinkedIn</span>
+                            <a href="https://linkedin.com/in/hari-prasad-reddy-sirigireddy/" target="_blank" class="contact-value">linkedin.com/in/hari-prasad-reddy-sirigireddy/</a>
+                        </div>
+                    </div>
+                    
+                    <!-- GitHub -->
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="ph-fill ph-github-logo"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">GitHub</span>
+                            <a href="https://github.com/hariprasad200" target="_blank" class="contact-value">github.com/hariprasad200</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="#home" class="logo text-center">Hari<span class="highlight">.Data</span></a>
+            <p>&copy; <span id="year"></span> Sirigireddy Hari Prasad Reddy. Built with code and data.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
